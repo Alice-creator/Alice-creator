@@ -4,15 +4,15 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
   output: 'export',
-  trailingSlash: true,
   distDir: 'out',
   images: {
     unoptimized: true
   },
-  assetPrefix: '',
-  basePath: '',
-  experimental: {
-    optimizeCss: false
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.optimization.splitChunks.cacheGroups.default.minChunks = 1;
+    }
+    return config;
   }
 };
 
