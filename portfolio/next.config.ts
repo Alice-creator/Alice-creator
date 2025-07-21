@@ -7,12 +7,6 @@ const nextConfig: NextConfig = {
   distDir: 'out',
   images: {
     unoptimized: true
-  },
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.optimization.splitChunks.cacheGroups.default.minChunks = 1;
-    }
-    return config;
   }
 };
 
