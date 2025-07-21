@@ -9,15 +9,6 @@ interface GitHubRepo {
   html_url: string;
 }
 
-interface GitHubCommit {
-  sha: string;
-  commit: {
-    author: {
-      date: string;
-    };
-  };
-}
-
 const fetcher = (url: string) => {
   const headers: Record<string, string> = {
     'Accept': 'application/vnd.github.v3+json',

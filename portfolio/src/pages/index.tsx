@@ -59,11 +59,11 @@ export default function Home() {
                 About Garage Owner
               </h2>
               <p className="text-lg text-slate-600 dark:text-slate-400 mb-6">
-                I'm an AI engineer loves creating state-of-the-art AI solutions for traditional problems.
+                I&apos;m an AI engineer loves creating state-of-the-art AI solutions for traditional problems.
                 Living till AI can walk and talk like humans, I will keep learning and improving my skills.
               </p>
               <p className="text-lg text-slate-600 dark:text-slate-400">
-                When I'm not coding, you can find me exploring new technologies, 
+                When I&apos;m not coding, you can find me exploring new technologies, 
                 reading about design trends, or working on personal projects.
               </p>
             </div>
