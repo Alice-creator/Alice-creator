@@ -5,8 +5,14 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   output: 'export',
   trailingSlash: true,
+  distDir: 'out',
   images: {
     unoptimized: true
+  },
+  assetPrefix: '',
+  basePath: '',
+  experimental: {
+    optimizeCss: false
   }
 };
 
