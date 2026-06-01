@@ -57,7 +57,7 @@ function getStatusBadge(daysAgo: number) {
     );
   } else if (daysAgo <= 30) {  // Recent: Within a month
     return (
-      <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 whitespace-nowrap">
+      <span className="bg-green-900/40 text-green-300 text-xs font-medium px-2.5 py-0.5 rounded whitespace-nowrap">
         🔄 Recent
       </span>
     );
@@ -193,7 +193,7 @@ export default function GitHubActivityTable() {
                     href={repo.html_url} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    className="hover:text-[#00e676] transition-colors"
                   >
                     {repo.name}
                   </a>

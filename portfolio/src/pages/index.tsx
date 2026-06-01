@@ -11,63 +11,112 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const projects = [
+  {
+    tag: "productivity / web",
+    name: "Navilife",
+    description: "Lifestyle manager for Time, Money, and Knowledge. React 19 + Supabase, drag-and-drop weekly planner with 15-min slots.",
+    link: "https://www.reais.codes/",
+    linkLabel: "Live at reais.codes →",
+    gradient: "from-emerald-900",
+  },
+  {
+    tag: "ai / infrastructure",
+    name: "Plexus",
+    description: "AI gateway — point it at an OpenAPI spec and every endpoint becomes an AI tool, exposed over MCP, REST, and OpenAI-compatible chat.",
+    link: "https://github.com/Alice-creator/plexus",
+    linkLabel: "View on GitHub →",
+    gradient: "from-teal-900",
+  },
+  {
+    tag: "game / browser",
+    name: "WoobleStack",
+    description: "3D browser Jenga. Pull blocks without toppling the tower — solo high-score or hot-seat for up to 5 players. Three.js + Rapier3D.",
+    link: "https://github.com/Alice-creator/WoobleStack",
+    linkLabel: "View on GitHub →",
+    gradient: "from-green-900",
+  },
+  {
+    tag: "competition / ai agent",
+    name: "OrbitWars",
+    description: "Kaggle space strategy competition. AI agent that captures planets and commands fleets on a 100×100 map. Pure Python.",
+    link: "https://github.com/Alice-creator/orbit-wars",
+    linkLabel: "View on GitHub →",
+    gradient: "from-slate-800",
+  },
+  {
+    tag: "ml / research",
+    name: "Bayesian Network",
+    description: "Probabilistic graphical model — reasoning under uncertainty the honest way, not vibes.",
+    link: "https://github.com/Alice-creator/Bayesian-network",
+    linkLabel: "View on GitHub →",
+    gradient: "from-green-950",
+  },
+];
+
 export default function Home() {
   return (
-    <div className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800`}>
+    <div className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-[#0a0a0a] text-[#e0e0e0]`}>
+
       {/* Navigation */}
-      <nav className="p-6 flex justify-between items-center max-w-6xl mx-auto">
-        <div className="text-2xl font-bold text-slate-800 dark:text-slate-200">
-          Loc Dang Garage
+      <nav className="px-6 py-5 flex justify-between items-center max-w-6xl mx-auto border-b border-[#1a1a1a]">
+        <div className="text-xl font-bold text-neon font-mono tracking-tight">
+          Loc Dang
         </div>
-        <div className="flex gap-6">
-          <a href="#about" className="text-slate-600 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 transition-colors">
-            About
-          </a>
-          <a href="#projects" className="text-slate-600 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 transition-colors">
-            Projects
-          </a>
-          <a href="#contact" className="text-slate-600 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 transition-colors">
-            Contact
-          </a>
+        <div className="flex gap-8">
+          <a href="#about" className="text-sm text-gray-400 hover:text-neon transition-colors">About</a>
+          <a href="#projects" className="text-sm text-gray-400 hover:text-neon transition-colors">Projects</a>
+          <a href="#contact" className="text-sm text-gray-400 hover:text-neon transition-colors">Contact</a>
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <main className="max-w-6xl mx-auto px-6 py-20">
-        <div className="text-center mb-16">
-          <h1 className="text-5xl md:text-7xl font-bold text-slate-800 dark:text-slate-200 mb-6">
-            Loc Dang Garage
+      {/* Hero */}
+      <main className="max-w-6xl mx-auto px-6">
+        <div className="py-28 text-center">
+          <div className="inline-block font-mono text-xs text-neon bg-neon/10 border border-neon/30 px-3 py-1 rounded-full mb-8 tracking-widest uppercase">
+            AI Engineer
+          </div>
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+            Loc Dang<span className="text-neon">.</span>
           </h1>
-          <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-400 mb-8 max-w-3xl mx-auto">
-            Bicentennial Man didn&apos;t make me want to build a robot. It made me want to build a future — where AI and people can actually live together.
+          <p className="text-lg md:text-xl text-gray-400 mb-2 max-w-2xl mx-auto">
+            Bicentennial Man didn&apos;t make me want to build a robot.
+          </p>
+          <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+            It made me want to build a future — where AI and people can actually live together.
           </p>
           <div className="flex gap-4 justify-center">
-            <a href="#projects" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors inline-block">
-              The Garage
+            <a href="#projects" className="bg-neon hover:bg-neon/90 text-black px-8 py-3 rounded-lg font-bold transition-colors text-sm">
+              See my work
             </a>
-            <a href="https://drive.google.com/drive/folders/1PqeXz7cdLf2KRUYrb4G-h4mOdNTuWHSP" target="_blank" rel="noopener noreferrer" className="border border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 px-8 py-3 rounded-lg font-semibold transition-colors inline-block">
+            <a
+              href="https://drive.google.com/drive/folders/1PqeXz7cdLf2KRUYrb4G-h4mOdNTuWHSP"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-[#2a2a2a] hover:border-neon text-gray-300 hover:text-neon px-8 py-3 rounded-lg font-semibold transition-colors text-sm"
+            >
               Credentials
             </a>
           </div>
         </div>
 
-        {/* About Section */}
-        <section id="about" className="py-20">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+        {/* About */}
+        <section id="about" className="py-20 border-t border-[#1a1a1a]">
+          <div className="grid md:grid-cols-2 gap-16 items-start">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-slate-200 mb-6">
-                About the Owner
+              <h2 className="text-2xl font-bold text-white mb-8">
+                About
               </h2>
-              <p className="text-lg text-slate-600 dark:text-slate-400 mb-6">
-                Bicentennial Man didn&apos;t make me want to build a robot. It made me want to build a future —
-                where AI and people can actually live together. That&apos;s the dream. Everything I build is a small step toward it.
-              </p>
-              <p className="text-lg text-slate-600 dark:text-slate-400 mb-6">
-                I prefer getting my hands on the math before touching the abstractions. Give me a probabilistic
+              <p className="text-gray-400 mb-5 leading-relaxed">
+                I&apos;m an AI engineer. I like the math more than the frameworks — give me a probabilistic
                 model over a black-box API any day.
               </p>
-              <p className="text-lg text-slate-600 dark:text-slate-400">
-                Outside of work, I run experiments on turning technical ideas into things people actually pay for.
+              <p className="text-gray-400 mb-5 leading-relaxed">
+                This garage is where I build things toward that dream. Some of it works. Some of it doesn&apos;t.
+                All of it moves me forward.
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                Outside of work, I run experiments on how to turn technical ideas into things people actually pay for.
                 Still learning that part.
               </p>
             </div>
@@ -75,57 +124,57 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Projects Section */}
-        <section id="projects" className="py-20">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-800 dark:text-slate-200 mb-4 text-center">
-            What&apos;s in the Garage
+        {/* Projects */}
+        <section id="projects" className="py-20 border-t border-[#1a1a1a]">
+          <h2 className="text-2xl font-bold text-white mb-2">
+            What I&apos;ve Built
           </h2>
-          <p className="text-center text-slate-500 dark:text-slate-400 mb-12">
+          <p className="text-gray-500 text-sm mb-12">
             Things I&apos;ve built, tinkered with, or broken on purpose.
           </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg overflow-hidden">
-              <div className="h-48 bg-gradient-to-br from-indigo-500 to-purple-600"></div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-200 mb-3">
-                  Bayesian Network
-                </h3>
-                <p className="text-slate-600 dark:text-slate-400 mb-4">
-                  Reasoning under uncertainty the honest way — probabilistic graphical models, not vibes.
-                </p>
-                <a href="https://github.com/Alice-creator/Bayesian-network" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 font-medium hover:underline">
-                  View on GitHub →
-                </a>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {projects.map((p) => (
+              <div
+                key={p.name}
+                className="bg-[#111] rounded-xl overflow-hidden border border-[#1f1f1f] hover:border-neon/50 transition-all hover:shadow-[0_0_20px_rgba(0,230,118,0.07)] group"
+              >
+                <div className={`h-28 bg-gradient-to-br ${p.gradient} to-[#0a0a0a] flex items-end px-5 pb-3`}>
+                  <span className="text-neon font-mono text-xs opacity-50 group-hover:opacity-100 transition-opacity">
+                    {p.tag}
+                  </span>
+                </div>
+                <div className="p-5">
+                  <h3 className="text-base font-semibold text-white mb-2">{p.name}</h3>
+                  <p className="text-gray-500 text-sm mb-4 leading-relaxed">{p.description}</p>
+                  <a
+                    href={p.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-neon text-sm font-medium hover:underline"
+                  >
+                    {p.linkLabel}
+                  </a>
+                </div>
               </div>
-            </div>
+            ))}
           </div>
         </section>
       </main>
 
       {/* Footer */}
-      <footer id="contact" className="bg-white dark:bg-slate-800 py-12">
+      <footer id="contact" className="border-t border-[#1a1a1a] mt-10 py-16">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-200 mb-6">
-            Let&apos;s talk
-          </h2>
-          <p className="text-slate-600 dark:text-slate-400 mb-8">
+          <h2 className="text-2xl font-bold text-white mb-3">Let&apos;s talk</h2>
+          <p className="text-gray-500 mb-8 text-sm">
             Got an interesting problem, a research idea, or just want to argue about probabilistic models?
           </p>
-          <div className="flex justify-center gap-6">
-            <a href="mailto:dangquocloccueh@gmail.com" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-              Email
-            </a>
-            <a href="https://github.com/loc-dang" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-              GitHub
-            </a>
-            <a href="https://www.linkedin.com/in/qu%E1%BB%91c-l%E1%BB%99c-%C4%91%E1%BA%B7ng-aaa591200/" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-              LinkedIn
-            </a>
+          <div className="flex justify-center gap-8">
+            <a href="mailto:dangquocloccueh@gmail.com" className="text-sm text-gray-400 hover:text-neon transition-colors">Email</a>
+            <a href="https://github.com/Alice-creator" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-neon transition-colors">GitHub</a>
+            <a href="https://www.linkedin.com/in/qu%E1%BB%91c-l%E1%BB%99c-%C4%91%E1%BA%B7ng-aaa591200/" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-neon transition-colors">LinkedIn</a>
           </div>
-          <div className="mt-8 pt-8 border-t border-slate-200 dark:border-slate-700">
-            <p className="text-slate-500 dark:text-slate-500">
-              © 2025 Loc Dang. Built with Next.js and Tailwind CSS.
-            </p>
+          <div className="mt-10 pt-8 border-t border-[#1a1a1a]">
+            <p className="text-gray-700 text-xs">© 2026 Loc Dang. Built with Next.js and Tailwind CSS.</p>
           </div>
         </div>
       </footer>
