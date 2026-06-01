@@ -188,7 +188,7 @@ export default function Home() {
           <div className="flex justify-center gap-8">
             <a href="mailto:dangquocloccueh@gmail.com" className="text-sm text-gray-400 hover:text-neon transition-colors">Email</a>
             <a href="https://github.com/Alice-creator" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-neon transition-colors">GitHub</a>
-            <a href="https://www.linkedin.com/in/qu%E1%BB%91c-l%E1%BB%99c-%C4%91%E1%BA%B7ng-aaa591200/" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-neon transition-colors">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/loc-dang-aaa591200/" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-neon transition-colors">LinkedIn</a>
           </div>
           <div className="mt-10 pt-8 border-t border-[#1a1a1a]">
             <p className="text-gray-700 text-xs">© 2026 Loc Dang. Built with Next.js and Tailwind CSS.</p>

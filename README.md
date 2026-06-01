@@ -7,7 +7,7 @@
 *A future where AI and people can actually live together.*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-alice--creator.github.io-brightgreen?style=flat-square&logo=googlechrome&logoColor=white)](https://alice-creator.github.io/Alice-creator/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Quốc_Lộc_Đặng-brightgreen?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/qu%E1%BB%91c-l%E1%BB%99c-%C4%91%E1%BA%B7ng-aaa591200/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Quốc_Lộc_Đặng-brightgreen?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/loc-dang-aaa591200/)
 [![Email](https://img.shields.io/badge/Email-contact-brightgreen?style=flat-square&logo=gmail&logoColor=white)](mailto:dangquocloccueh@gmail.com)
 
 </div>
