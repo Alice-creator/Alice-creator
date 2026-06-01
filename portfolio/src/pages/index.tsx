@@ -93,22 +93,51 @@ export default function Home() {
 
         {/* About */}
         <section id="about" className="py-20 border-t border-[#1a1a1a]">
-          <div className="max-w-2xl">
-            <h2 className="text-2xl font-bold text-white mb-8">
-              About
-            </h2>
-            <p className="text-gray-400 mb-5 leading-relaxed">
-              I&apos;m an AI engineer. I like the math more than the frameworks — give me a probabilistic
-              model over a black-box API any day.
-            </p>
-            <p className="text-gray-400 mb-5 leading-relaxed">
-              This garage is where I build things toward that dream. Some of it works. Some of it doesn&apos;t.
-              All of it moves me forward.
-            </p>
-            <p className="text-gray-400 leading-relaxed">
-              Outside of work, I run experiments on how to turn technical ideas into things people actually pay for.
-              Still learning that part.
-            </p>
+          <div className="grid md:grid-cols-5 gap-16">
+
+            {/* Text */}
+            <div className="md:col-span-3">
+              <h2 className="text-2xl font-bold text-white mb-8">About</h2>
+              <p className="text-gray-400 mb-5 leading-relaxed">
+                I&apos;m an AI engineer. I like the math more than the frameworks — give me a probabilistic
+                model over a black-box API any day.
+              </p>
+              <p className="text-gray-400 mb-5 leading-relaxed">
+                This garage is where I build things toward that dream. Some of it works. Some of it doesn&apos;t.
+                All of it moves me forward.
+              </p>
+              <p className="text-gray-400 leading-relaxed">
+                Outside of work, I run experiments on how to turn technical ideas into things people actually pay for.
+                Still learning that part.
+              </p>
+            </div>
+
+            {/* Sidebar */}
+            <div className="md:col-span-2 flex flex-col gap-7 pt-1">
+              <div className="border-l-2 border-neon pl-5">
+                <p className="text-xs font-mono text-neon uppercase tracking-widest mb-3">Currently building</p>
+                <ul className="space-y-1.5">
+                  <li className="text-gray-300 text-sm">Navilife</li>
+                  <li className="text-gray-300 text-sm">Plexus</li>
+                  <li className="text-gray-300 text-sm">WoobleStack</li>
+                </ul>
+              </div>
+              <div className="border-l-2 border-[#2a2a2a] pl-5">
+                <p className="text-xs font-mono text-neon uppercase tracking-widest mb-3">Stack</p>
+                <ul className="space-y-1.5">
+                  <li className="text-gray-500 text-sm">Python · PyTorch · scikit-learn</li>
+                  <li className="text-gray-500 text-sm">React · Supabase</li>
+                  <li className="text-gray-500 text-sm">Three.js · Rapier3D</li>
+                </ul>
+              </div>
+              <div className="border-l-2 border-[#2a2a2a] pl-5">
+                <p className="text-xs font-mono text-neon uppercase tracking-widest mb-3">Thinking about</p>
+                <p className="text-gray-500 text-sm leading-relaxed">
+                  AI-human coexistence. Probabilistic reasoning. How to turn side projects into things people pay for.
+                </p>
+              </div>
+            </div>
+
           </div>
         </section>
 
