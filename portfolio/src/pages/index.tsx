@@ -39,7 +39,7 @@ export default function Home() {
             Loc Dang Garage
           </h1>
           <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-400 mb-8 max-w-3xl mx-auto">
-            Building toward an AI that can truly hear, read, speak — and discover the world on its own.
+            Bicentennial Man didn&apos;t make me want to build a robot. It made me want to build a future — where AI and people can actually live together.
           </p>
           <div className="flex gap-4 justify-center">
             <a href="#projects" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors inline-block">
@@ -59,9 +59,8 @@ export default function Home() {
                 About the Owner
               </h2>
               <p className="text-lg text-slate-600 dark:text-slate-400 mb-6">
-                I got into AI chasing one specific idea: an AI that can truly hear, read, speak, and discover
-                the world on its own — not just answer prompts, but actually understand. Everything I build is
-                a step toward that.
+                Bicentennial Man didn&apos;t make me want to build a robot. It made me want to build a future —
+                where AI and people can actually live together. That&apos;s the dream. Everything I build is a small step toward it.
               </p>
               <p className="text-lg text-slate-600 dark:text-slate-400 mb-6">
                 I prefer getting my hands on the math before touching the abstractions. Give me a probabilistic

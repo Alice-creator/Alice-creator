@@ -2,9 +2,9 @@
 
 # Loc Dang
 
-**Building toward an AI that can truly hear, read, speak — and discover the world on its own.**
+**Bringing robots to real life**
 
-*I got into this field chasing one specific dream. Everything else is the journey.*
+*A future where AI and people can actually live together.*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-alice--creator.github.io-brightgreen?style=flat-square&logo=googlechrome&logoColor=white)](https://alice-creator.github.io/Alice-creator/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Quốc_Lộc_Đặng-brightgreen?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/qu%E1%BB%91c-l%E1%BB%99c-%C4%91%E1%BA%B7ng-aaa591200/)
@@ -14,13 +14,11 @@
 
 ---
 
-## The Garage
-
-This is my garage — a place for tinkering, not polishing.
+This is my garage — a place for tinkering.
 
 I'm an AI engineer who likes getting my hands on the math before touching the abstractions. Give me a probabilistic model over a black-box API any day. Most of my best thinking happens at the intersection of theory and a concrete problem I'm not sure how to solve yet.
 
-Outside of work, I run experiments on how to actually turn technical ideas into things people pay for. Still learning that part.
+Outside of work, I run experiments on how to actually turn technical ideas into things people pay for.
 
 ---
 
@@ -45,7 +43,7 @@ Outside of work, I run experiments on how to actually turn technical ideas into 
 
 ---
 
-## What's in the Garage
+## What I've Built
 
 | Project | What it is |
 |---|---|
@@ -60,8 +58,7 @@ Outside of work, I run experiments on how to actually turn technical ideas into 
 ## GitHub Stats
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Alice-creator&show_icons=true&theme=merko&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alice-creator&layout=compact&langs_count=6&theme=merko&hide_border=true"/>
+  <img src="https://streak-stats.demolab.com?user=Alice-creator&theme=dark&hide_border=true&stroke=00e676&ring=00e676&fire=00e676&currStreakNum=00e676&sideNums=00e676&currStreakLabel=00e676&sideLabels=ffffff&dates=aaaaaa"/>
 </div>
 
 ---
