@@ -93,10 +93,10 @@ export default function Home() {
 
         {/* About */}
         <section id="about" className="py-20 border-t border-[#1a1a1a]">
-          <div className="grid md:grid-cols-5 gap-16">
+          <div className="flex flex-col lg:flex-row gap-16">
 
             {/* Text */}
-            <div className="md:col-span-3">
+            <div className="flex-1 min-w-0">
               <h2 className="text-2xl font-bold text-white mb-8">About</h2>
               <p className="text-gray-400 mb-5 leading-relaxed">
                 I&apos;m an AI engineer. I like the math more than the frameworks — give me a probabilistic
@@ -113,7 +113,7 @@ export default function Home() {
             </div>
 
             {/* Sidebar */}
-            <div className="md:col-span-2 flex flex-col gap-7 pt-1">
+            <div className="lg:w-64 shrink-0 flex flex-col gap-7 pt-1">
               <div className="border-l-2 border-neon pl-5">
                 <p className="text-xs font-mono text-neon uppercase tracking-widest mb-3">Currently building</p>
                 <ul className="space-y-1.5">
