@@ -1,5 +1,4 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import GitHubActivityTable from "../components/GitHubActivityTable";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -89,38 +88,27 @@ export default function Home() {
             <a href="#projects" className="bg-neon hover:bg-neon/90 text-black px-8 py-3 rounded-lg font-bold transition-colors text-sm">
               See my work
             </a>
-            <a
-              href="https://drive.google.com/drive/folders/1PqeXz7cdLf2KRUYrb4G-h4mOdNTuWHSP"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-[#2a2a2a] hover:border-neon text-gray-300 hover:text-neon px-8 py-3 rounded-lg font-semibold transition-colors text-sm"
-            >
-              Credentials
-            </a>
           </div>
         </div>
 
         {/* About */}
         <section id="about" className="py-20 border-t border-[#1a1a1a]">
-          <div className="grid md:grid-cols-2 gap-16 items-start">
-            <div>
-              <h2 className="text-2xl font-bold text-white mb-8">
-                About
-              </h2>
-              <p className="text-gray-400 mb-5 leading-relaxed">
-                I&apos;m an AI engineer. I like the math more than the frameworks — give me a probabilistic
-                model over a black-box API any day.
-              </p>
-              <p className="text-gray-400 mb-5 leading-relaxed">
-                This garage is where I build things toward that dream. Some of it works. Some of it doesn&apos;t.
-                All of it moves me forward.
-              </p>
-              <p className="text-gray-400 leading-relaxed">
-                Outside of work, I run experiments on how to turn technical ideas into things people actually pay for.
-                Still learning that part.
-              </p>
-            </div>
-            <GitHubActivityTable />
+          <div className="max-w-2xl">
+            <h2 className="text-2xl font-bold text-white mb-8">
+              About
+            </h2>
+            <p className="text-gray-400 mb-5 leading-relaxed">
+              I&apos;m an AI engineer. I like the math more than the frameworks — give me a probabilistic
+              model over a black-box API any day.
+            </p>
+            <p className="text-gray-400 mb-5 leading-relaxed">
+              This garage is where I build things toward that dream. Some of it works. Some of it doesn&apos;t.
+              All of it moves me forward.
+            </p>
+            <p className="text-gray-400 leading-relaxed">
+              Outside of work, I run experiments on how to turn technical ideas into things people actually pay for.
+              Still learning that part.
+            </p>
           </div>
         </section>
 
