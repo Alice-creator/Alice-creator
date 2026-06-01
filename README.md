@@ -49,7 +49,7 @@ Outside of work, I run experiments on how to actually turn technical ideas into 
 |---|---|
 | [Navilife](https://www.reais.codes/) | Lifestyle productivity manager — track Time, Money, and Knowledge. React 19 + Supabase, drag-and-drop weekly planner with 15-min slots. Live at reais.codes. |
 | [Plexus](https://github.com/Alice-creator/plexus) | Protocol-agnostic AI gateway — point it at an OpenAPI spec and every endpoint becomes an AI tool, exposed over MCP, REST, and OpenAI-compatible chat. First use case: smart home. |
-| [WoobleStack](https://github.com/Alice-creator/WoobleStack) | 3D browser Jenga. Pull blocks without toppling the tower — solo high-score or hot-seat for up to 5 players. Three.js + Rapier3D (WASM physics). Targeting Poki / CrazyGames. |
+| [WoobleStack](https://wobble-stack.vercel.app/) | 3D browser Jenga. Pull blocks without toppling the tower — solo high-score or hot-seat for up to 5 players. Three.js + Rapier3D (WASM physics). |
 | [OrbitWars](https://github.com/Alice-creator/orbit-wars) | Kaggle space strategy competition. Programmed an AI agent to capture planets and command fleets on a 100×100 map. Pure Python. |
 | [Bayesian Network](https://github.com/Alice-creator/Bayesian-network) | Probabilistic graphical model — reasoning under uncertainty the honest way, not vibes. |
 

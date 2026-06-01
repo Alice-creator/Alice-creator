@@ -30,9 +30,9 @@ const projects = [
   {
     tag: "game / browser",
     name: "WoobleStack",
-    description: "3D browser Jenga. Pull blocks without toppling the tower — solo high-score or hot-seat for up to 5 players. Three.js + Rapier3D.",
-    link: "https://github.com/Alice-creator/WoobleStack",
-    linkLabel: "View on GitHub →",
+    description: "3D browser Jenga. Pull blocks without toppling the tower — solo high-score or hot-seat for up to 5 players. Three.js + Rapier3D (WASM physics).",
+    link: "https://wobble-stack.vercel.app/",
+    linkLabel: "Play it →",
     gradient: "from-green-900",
   },
   {
