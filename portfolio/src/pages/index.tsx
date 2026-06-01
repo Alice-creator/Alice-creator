@@ -119,7 +119,6 @@ export default function Home() {
                 <ul className="space-y-1.5">
                   <li className="text-gray-300 text-sm">Navilife</li>
                   <li className="text-gray-300 text-sm">Plexus</li>
-                  <li className="text-gray-300 text-sm">WoobleStack</li>
                 </ul>
               </div>
               <div className="border-l-2 border-[#2a2a2a] pl-5">
